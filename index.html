@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chess Champions</title>
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="icon"
+      href="https://images.fineartamerica.com/images-medium-large-5/1-king-chess-piece-ktsdesign.jpg"
+    />
+    <style>
+      @media (max-width: 767.98px) {
+        .margin-top {
+          margin-top: 64px !important;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-dark bg-dark">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            Chess Champions
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              fill="currentColor"
+              class="bi bi-trophy"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M2.5.5A.5.5 0 0 1 3 0h10a.5.5 0 0 1 .5.5c0 .538-.012 1.05-.034 1.536a3 3 0 1 1-1.133 5.89c-.79 1.865-1.878 2.777-2.833 3.011v2.173l1.425.356c.194.048.377.135.537.255L13.3 15.1a.5.5 0 0 1-.3.9H3a.5.5 0 0 1-.3-.9l1.838-1.379c.16-.12.343-.207.537-.255L6.5 13.11v-2.173c-.955-.234-2.043-1.146-2.833-3.012a3 3 0 1 1-1.132-5.89A33.076 33.076 0 0 1 2.5.5zm.099 2.54a2 2 0 0 0 .72 3.935c-.333-1.05-.588-2.346-.72-3.935zm10.083 3.935a2 2 0 0 0 .72-3.935c-.133 1.59-.388 2.885-.72 3.935zM3.504 1c.007.517.026 1.006.056 1.469.13 2.028.457 3.546.87 4.667C5.294 9.48 6.484 10 7 10a.5.5 0 0 1 .5.5v2.61a1 1 0 0 1-.757.97l-1.426.356a.5.5 0 0 0-.179.085L4.5 15h7l-.638-.479a.501.501 0 0 0-.18-.085l-1.425-.356a1 1 0 0 1-.757-.97V10.5A.5.5 0 0 1 9 10c.516 0 1.706-.52 2.57-2.864.413-1.12.74-2.64.87-4.667.03-.463.049-.952.056-1.469H3.504z"
+              />
+            </svg>
+          </a>
+        </div>
+      </nav>
+    </header>
+    <main class="container">
+      <h1 class="text-center mt-5 mb-4">Chess</h1>
+      <p class="h6">
+        Chess is a board game played between two players. The current form of
+        the game emerged in Southern Europe during the second half of the 15th
+        century after evolving from a similar, much older game of Indian origin.
+        Today, chess is one of the world's most popular games, played by
+        millions of people worldwide. There are related games such as xiangqi.
+      </p>
+      <p class="h6">
+        Chess is an abstract strategy game and involves no hidden information.
+        It is played on a square chessboard with 64 squares arranged in an
+        eight-by-eight grid. At the start, each player (one controlling the
+        white pieces, the other controlling the black pieces) controls sixteen
+        pieces: one king, one queen, two rooks, two knights, two bishops, and
+        eight pawns. The object of the game is to checkmate the opponent's king,
+        whereby the king is under immediate attack (in "check") and there is no
+        way for it to escape. There are also several ways a game can end in a
+        draw.
+      </p>
+      <p class="h6">
+        Organized chess arose in the 19th century. Chess competition today is
+        governed internationally by FIDE (International Chess Federation). The
+        first universally recognized World Chess Champion, Wilhelm Steinitz,
+        claimed his title in 1886; Magnus Carlsen is the current World Champion.
+        A huge body of chess theory has developed since the game's inception.
+        Aspects of art are found in chess composition; and chess in its turn
+        influenced Western culture and art and has connections with other fields
+        such as mathematics, computer science, and psychology.
+      </p>
+      <p class="h6">
+        One of the goals of early computer scientists was to create a
+        chess-playing machine. In 1997, Deep Blue became the first computer to
+        beat the reigning World Champion in a match when it defeated Garry
+        Kasparov. Today's chess engines are significantly stronger than the best
+        human players, and have deeply influenced the development of chess
+        theory.
+      </p>
+      <h2 class="text-center mt-5 mb-4">World champions</h2>
+      <div class="row">
+        <div class="col">
+          <h3 class="text-center mt-2 mb-4">
+            Leading players before the World Chess Championships
+          </h3>
+          <table class="table table-striped">
+            <thead>
+              <tr>
+                <th scope="col">Name</th>
+                <th scope="col">Year</th>
+                <th scope="col">Country</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Ruy López de Segura</td>
+                <td>1559–1575</td>
+                <td>Spain</td>
+              </tr>
+              <tr>
+                <td>Leonardo di Bona</td>
+                <td>c. 1575</td>
+                <td>Naples</td>
+              </tr>
+              <tr>
+                <td>Paolo Boi</td>
+                <td>c. 1575</td>
+                <td>Sicily</td>
+              </tr>
+              <tr>
+                <td>Alessandro Salvio</td>
+                <td>c. 1600</td>
+                <td>Naples</td>
+              </tr>
+              <tr>
+                <td>Gioachino Greco</td>
+                <td>c. 1620–1634</td>
+                <td>Naples</td>
+              </tr>
+              <tr>
+                <td>Legall de Kermeur</td>
+                <td>c. 1730–1755</td>
+                <td>France</td>
+              </tr>
+              <tr>
+                <td>François-André Danican Philidor</td>
+                <td>1755–1795</td>
+                <td>France</td>
+              </tr>
+              <tr>
+                <td>Alexandre Deschapelles</td>
+                <td>1815–1821</td>
+                <td>France</td>
+              </tr>
+              <tr>
+                <td>Louis-Charles Mahé de La Bourdonnais</td>
+                <td>1821–1840</td>
+                <td>France</td>
+              </tr>
+              <tr>
+                <td>Howard Staunton</td>
+                <td>1843–1851</td>
+                <td>England</td>
+              </tr>
+              <tr>
+                <td>Adolf Anderssen</td>
+                <td>1851–1858</td>
+                <td>Prussia</td>
+              </tr>
+              <tr>
+                <td>Paul Morphy</td>
+                <td>1858–1862</td>
+                <td>United States</td>
+              </tr>
+              <tr>
+                <td>Adolf Anderssen</td>
+                <td>1862–1866</td>
+                <td>Prussia</td>
+              </tr>
+              <tr>
+                <td>Wilhelm Steinitz</td>
+                <td>1866–1886</td>
+                <td>Austria-Hungary</td>
+              </tr>
+              <tr>
+                <td>Johannes Zukertort</td>
+                <td>1883–1886</td>
+                <td>England</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="col">
+          <h3 class="text-center mt-2 mb-4 margin-top">
+            Undisputed world champions (1886–1993)
+          </h3>
+          <table class="table table-striped">
+            <thead>
+              <tr>
+                <th scope="col">#</th>
+                <th scope="col">Name</th>
+                <th scope="col">Year</th>
+                <th scope="col">Country</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>1</td>
+                <td>Wilhelm Steinitz</td>
+                <td>1886–1894</td>
+                <td>United States</td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td>Emanuel Lasker</td>
+                <td>1894–1921</td>
+                <td>Germany</td>
+              </tr>
+              <tr>
+                <td>3</td>
+                <td>José Raúl Capablanca</td>
+                <td>1921–1927</td>
+                <td>Cuba</td>
+              </tr>
+              <tr>
+                <td>4</td>
+                <td>Alexander Alekhine</td>
+                <td>1927–1935</td>
+                <td>France</td>
+              </tr>
+              <tr>
+                <td>5</td>
+                <td>Max Euwe</td>
+                <td>1935–1937</td>
+                <td>Netherlands</td>
+              </tr>
+              <tr>
+                <td>(4)</td>
+                <td>Alexander Alekhine</td>
+                <td>1937–1946</td>
+                <td>France</td>
+              </tr>
+              <tr>
+                <td>6</td>
+                <td>Mikhail Botvinnik</td>
+                <td>1948–1957</td>
+                <td>Soviet Union</td>
+              </tr>
+              <tr>
+                <td>7</td>
+                <td>Vasily Smyslov</td>
+                <td>1957–1958</td>
+                <td>Soviet Union</td>
+              </tr>
+              <tr>
+                <td>(6)</td>
+                <td>Mikhail Botvinnik</td>
+                <td>1958–1960</td>
+                <td>Soviet Union</td>
+              </tr>
+              <tr>
+                <td>8</td>
+                <td>Mikhail Tal</td>
+                <td>1960–1961</td>
+                <td>Soviet Union</td>
+              </tr>
+              <tr>
+                <td>(6)</td>
+                <td>Mikhail Botvinnik</td>
+                <td>1961–1963</td>
+                <td>Soviet Union</td>
+              </tr>
+              <tr>
+                <td>9</td>
+                <td>Tigran Petrosian</td>
+                <td>1963–1969</td>
+                <td>Soviet Union</td>
+              </tr>
+              <tr>
+                <td>10</td>
+                <td>Boris Spassky</td>
+                <td>1969–1972</td>
+                <td>Soviet Union</td>
+              </tr>
+              <tr>
+                <td>11</td>
+                <td>Bobby Fischer</td>
+                <td>1972–1975</td>
+                <td>United States</td>
+              </tr>
+              <tr>
+                <td>12</td>
+                <td>Anatoly Karpov</td>
+                <td>1975–1985</td>
+                <td>Soviet Union</td>
+              </tr>
+              <tr>
+                <td>13</td>
+                <td>Garry Kasparov</td>
+                <td>1985–1993</td>
+                <td>Soviet Union</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <div class="row my-5">
+        <div class="col-md-4">
+          <div class="card">
+            <img
+              src="https://cdn.britannica.com/55/11855-050-82C30B02/Bobby-Fischer-1971.jpg"
+              class="card-img-top"
+              alt="Bobby Fischer"
+            />
+            <div class="card-body">
+              <p class="card-text">
+                <strong>Robert James Fischer</strong> (March 9, 1943 – January
+                17, 2008) was an American chess grandmaster and the eleventh
+                World Chess Champion. A chess prodigy, at age 14 he won the 1958
+                U.S. Championship. In 1964, he won the same tournament with a
+                perfect score (11 wins). Qualifying for the 1972 World
+                Championship, Fischer swept matches with Mark Taimanov and Bent
+                Larsen by 6-0 scores. After another qualifying match against
+                Tigran Petrosian, Fischer won the title match against Boris
+                Spassky of the USSR, in Reykjavík, Iceland. Publicized as a Cold
+                War confrontation between the US and USSR, the match attracted
+                more worldwide interest than any chess championship before or
+                since.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 margin-top">
+          <div class="card">
+            <img
+              src="https://en.chessbase.com/thumb/95460_l200"
+              class="card-img-top"
+              alt="Anatoly Karpov"
+            />
+            <div class="card-body">
+              <p class="card-text">
+                <strong>Anatoly Yevgenyevich Karpov</strong> (Russian: Анато́лий
+                Евге́ньевич Ка́рпов, IPA: [ɐnɐˈtolʲɪj jɪvˈɡʲenʲjɪvʲɪtɕ ˈkarpəf];
+                born May 23, 1951) is a Soviet and Russian chess grandmaster and
+                former World Chess Champion. He was the 12th World Chess
+                Champion from 1975 to 1985, a three-time FIDE World Champion
+                (1993, 1996, 1998), twice World Chess champion as a member of
+                the USSR team (1985, 1989), and a six-time winner of Chess
+                Olympiads as a member of the USSR team (1972, 1974, 1980, 1982,
+                1986, 1988). The International Association of Chess Press
+                awarded him nine Chess "Oscars" (1973, 1974, 1975, 1976, 1977,
+                1979, 1980, 1981, 1984).
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 margin-top">
+          <div class="card">
+            <img
+              src="https://miro.medium.com/max/6300/1*Ku4FZSo7V7KySvM60KBxFQ.jpeg"
+              class="card-img-top"
+              alt="Garry Kasparov"
+            />
+            <div class="card-body">
+              <p class="card-text">
+                <strong>Garry Kimovich Kasparov</strong> (Russian: Гарри Кимович
+                Каспаров, Russian pronunciation: [ˈɡarʲɪ ˈkʲiməvʲɪtɕ kɐˈsparəf],
+                born Garik Kimovich Weinstein, Гарик Кимович Вайнштейн; 13 April
+                1963) is a Russian chess grandmaster, former World Chess
+                Champion, writer, political activist and commentator. From 1984
+                until his retirement in 2005, Kasparov was ranked world No. 1
+                for a record 255 months overall for his career. His peak rating
+                of 2851,[1] achieved in 1999, was the highest recorded until
+                being surpassed by Magnus Carlsen in 2013. Kasparov also holds
+                records for the most consecutive professional tournament
+                victories (15) and Chess Oscars (11).
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <h2 class="text-center mt-5 mb-4">Split title (1993–2006)</h2>
+      <p class="h6">
+        In 1993, World Chess Champion Garry Kasparov and challenger Nigel Short
+        split from FIDE, and played their title match under the auspices of the
+        Professional Chess Association. In response, FIDE stripped Kasparov of
+        his title and arranged its own World Championship match between former
+        champion Anatoly Karpov and Candidates finalist Jan Timman. For the next
+        13 years there were two rival world titles.
+      </p>
+      <div class="row">
+        <div class="col">
+          <h3 class="text-center mt-5 mb-4">
+            FIDE world champions (1993–2006)
+          </h3>
+          <table class="table table-striped">
+            <thead>
+              <tr>
+                <th scope="col">Name</th>
+                <th scope="col">Year</th>
+                <th scope="col">Country</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Anatoly Karpov</td>
+                <td>1993–1999</td>
+                <td>Russia</td>
+              </tr>
+              <tr>
+                <td>Alexander Khalifman</td>
+                <td>1999–2000</td>
+                <td>Russia</td>
+              </tr>
+              <tr>
+                <td>Viswanathan Anand</td>
+                <td>2000–2002</td>
+                <td>India</td>
+              </tr>
+              <tr>
+                <td>Ruslan Ponomariov</td>
+                <td>2002–2004</td>
+                <td>Ukraine</td>
+              </tr>
+              <tr>
+                <td>Rustam Kasimdzhanov</td>
+                <td>2004–2005</td>
+                <td>Uzbekistan</td>
+              </tr>
+              <tr>
+                <td>Veselin Topalov</td>
+                <td>2005–2006</td>
+                <td>Bulgaria</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="col">
+          <h3 class="text-center mt-3">
+            Classical (PCA/Braingames) world champions (1993–2006)
+          </h3>
+          <table class="table table-striped">
+            <thead>
+              <tr>
+                <th scope="col">Name</th>
+                <th scope="col">Year</th>
+                <th scope="col">Country</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Garry Kasparov</td>
+                <td>1993–2000</td>
+                <td>Russia</td>
+              </tr>
+              <tr>
+                <td>Vladimir Kramnik</td>
+                <td>2000–2006</td>
+                <td>Russia</td>
+              </tr>
+            </tbody>
+          </table>
+          <h3 class="text-center mt-3 margin-top">
+            Undisputed world champions (2006–present)
+          </h3>
+          <table class="table table-striped">
+            <thead>
+              <tr>
+                <th scope="col">#</th>
+                <th scope="col">Name</th>
+                <th scope="col">Year</th>
+                <th scope="col">Country</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>14</td>
+                <td>Vladimir Kramnik</td>
+                <td>2006–2007</td>
+                <td>Russia</td>
+              </tr>
+              <tr>
+                <td>15</td>
+                <td>Viswanathan Anand</td>
+                <td>2007–2013</td>
+                <td>India</td>
+              </tr>
+              <tr>
+                <td>16</td>
+                <td>Magnus Carlsen</td>
+                <td>2013–present</td>
+                <td>Norway</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <div class="row my-5">
+        <div class="col-md-4">
+          <div class="card">
+            <img
+              src="https://opcija.net/wp-content/uploads/2019/01/kramnik-1024x651.jpg"
+              class="card-img-top"
+              alt="Vladimir Kramnik"
+            />
+            <div class="card-body">
+              <p class="card-text">
+                <strong>Vladimir Borisovich Kramnik</strong> (Russian: Влади́мир
+                Бори́сович Кра́мник; born 25 June 1975) is a Russian chess
+                grandmaster. He was the Classical World Chess Champion from 2000
+                to 2006, and the undisputed World Chess Champion from 2006 to
+                2007. He has won three team gold medals and three individual
+                medals at Chess Olympiads.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 margin-top">
+          <div class="card">
+            <img
+              src="https://images.hindustantimes.com/rf/image_size_630x354/HT/p2/2020/07/25/Pictures/championship-wednesday-challenger-viswanathan-defeating-tiebreaker-retained_2fc9493a-ce32-11ea-a892-bc0febb83d85.jpg"
+              class="card-img-top"
+              alt="Viswanathan Anand"
+            />
+            <div class="card-body">
+              <p class="card-text">
+                <strong>Viswanathan Anand</strong> (born 11 December 1969) is an
+                Indian chess grandmaster and the fifteenth undisputed world
+                chess champion. He became the first grandmaster from India in
+                1988, and is one of the few players to have surpassed an Elo
+                rating of 2800, a feat he first achieved in 2006.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 margin-top">
+          <div class="card">
+            <img
+              src="https://i.guim.co.uk/img/media/fb147e8df5ddbcfdbe4b9fee1d58fafbb99b0e3b/0_223_5274_3164/master/5274.jpg?width=465&quality=45&auto=format&fit=max&dpr=2&s=7e56106ddaa2601149e94bab168460b8"
+              class="card-img-top"
+              alt="Magnus Carlsen"
+            />
+            <div class="card-body">
+              <p class="card-text">
+                <strong>Sven Magnus Øen Carlsen</strong> (born 30 November 1990)
+                is a Norwegian chess grandmaster who is the reigning five-time
+                World Chess Champion, three-time World Rapid Chess Champion, and
+                five-time World Blitz Chess Champion. Carlsen has held the No. 1
+                position in the FIDE world chess rankings since 1 July 2011, and
+                trails only Garry Kasparov in time spent as the highest rated
+                player in the world. His peak classical rating of 2882 is the
+                highest in history. He also holds the record for the longest
+                unbeaten streak at the top level in classical chess.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a href="#">
+        <button type="button" class="btn btn-outline-dark mb-5">
+          Go to the top of the page
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="16"
+            height="16"
+            fill="currentColor"
+            class="bi bi-arrow-up"
+            viewBox="0 0 16 16"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M8 15a.5.5 0 0 0 .5-.5V2.707l3.146 3.147a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 1 0 .708.708L7.5 2.707V14.5a.5.5 0 0 0 .5.5z"
+            />
+          </svg>
+        </button>
+      </a>
+    </main>
+    <footer class="footer mt-auto py-3 bg-dark">
+      <div class="container">
+        <span class="text-muted"
+          >&copy; The site was created by Nenad, exclusively for fun and
+          exercise
+        </span>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="16"
+          height="16"
+          fill="#6c757d"
+          class="bi bi-check2"
+          viewBox="0 0 16 16"
+        >
+          <path
+            d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"
+          />
+        </svg>
+      </div>
+    </footer>
+    <!-- JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
